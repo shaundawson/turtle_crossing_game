@@ -15,7 +15,7 @@ class CarManager:
 
     def create_car(self):
         random_chance = random.randint(1, 6)
-        if random_chance == 6:
+        if random_chance == 1:
             new_car = Turtle()
             new_car.shape("square")
             new_car.speed("fastest")
